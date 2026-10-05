@@ -1,4 +1,464 @@
 {
-  "updated_at": null,
-  "models": {}
+  "models": {
+    "gemini-2.0-flash": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-3.6-flash",
+      "shutdown": "2026-06-01",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-2.0-flash-001": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-3.6-flash",
+      "shutdown": "2026-06-01",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-2.0-flash-lite": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-3.1-flash-lite",
+      "shutdown": "2026-06-01",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-2.0-flash-lite-001": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-3.1-flash-lite",
+      "shutdown": "2026-06-01",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-2.0-flash-lite-preview": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-2.5-flash-lite",
+      "shutdown": "2025-12-09",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-2.0-flash-lite-preview-02-05": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-2.5-flash-lite",
+      "shutdown": "2025-12-09",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-2.0-flash-live-001": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-3.8-live",
+      "shutdown": "2025-12-09",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-2.0-flash-preview-image-generation": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-2.5-flash-image",
+      "shutdown": "2025-11-14",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-2.5-flash": {
+      "display_name": "Gemini 2.5 Flash",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "version": "001"
+    },
+    "gemini-2.5-flash-image": {
+      "display_name": "Nano Banana",
+      "in_api": true,
+      "replacement": "gemini-3.1-flash-image-preview",
+      "shutdown": "2026-10-02",
+      "status": "shutdown",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "version": "2.0"
+    },
+    "gemini-2.5-flash-image-preview": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-2.5-flash-image",
+      "shutdown": "2026-01-15",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-2.5-flash-lite": {
+      "display_name": "Gemini 2.5 Flash-Lite",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "version": "001"
+    },
+    "gemini-2.5-flash-lite-preview-09-2025": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-3.1-flash-lite",
+      "shutdown": "2026-03-31",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-2.5-flash-native-audio-latest": {
+      "display_name": "Gemini 2.5 Flash Native Audio Latest",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "bidiGenerateContent",
+        "countTokens"
+      ],
+      "version": "Gemini 2.5 Flash Native Audio Latest"
+    },
+    "gemini-2.5-flash-native-audio-preview-09-2025": {
+      "display_name": "Gemini 2.5 Flash Native Audio Preview 09-2025",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "bidiGenerateContent",
+        "countTokens"
+      ],
+      "version": "gemini-2.5-flash-preview-native-audio-dialog-2025-05-19"
+    },
+    "gemini-2.5-flash-native-audio-preview-12-2025": {
+      "display_name": "Gemini 2.5 Flash Native Audio Preview 12-2025",
+      "in_api": true,
+      "replacement": "gemini-3.8-live",
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "bidiGenerateContent",
+        "countTokens"
+      ],
+      "version": "12-2025"
+    },
+    "gemini-2.5-flash-preview-05-20": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-3.6-flash",
+      "shutdown": "2025-11-18",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-2.5-flash-preview-09-25": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-3.6-flash",
+      "shutdown": "2026-02-17",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-2.5-flash-preview-tts": {
+      "display_name": "Gemini 2.5 Flash Preview TTS",
+      "in_api": true,
+      "replacement": "gemini-3.8-flash-tts",
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "countTokens",
+        "generateContent"
+      ],
+      "version": "gemini-2.5-flash-exp-tts-2025-05-19"
+    },
+    "gemini-3-flash-preview": {
+      "display_name": "Gemini 3 Flash Preview",
+      "in_api": true,
+      "replacement": "gemini-3.6-flash",
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "version": "3-flash-preview-12-2025"
+    },
+    "gemini-3.1-flash-image": {
+      "display_name": "Nano Banana 2",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "version": "3.0"
+    },
+    "gemini-3.1-flash-image-preview": {
+      "display_name": "Nano Banana 2",
+      "in_api": true,
+      "replacement": "gemini-3.1-flash-image",
+      "shutdown": "2026-06-25",
+      "status": "shutdown",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "version": "3.0"
+    },
+    "gemini-3.1-flash-lite": {
+      "display_name": "Gemini 3.1 Flash Lite",
+      "in_api": true,
+      "replacement": "gemini-3.5-flash-lite",
+      "shutdown": "2027-05-07",
+      "status": "deprecated",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "version": "3.1-flash-lite-05-2026"
+    },
+    "gemini-3.1-flash-lite-image": {
+      "display_name": "Nano Banana 2 Lite",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "version": "3.0"
+    },
+    "gemini-3.1-flash-lite-preview": {
+      "display_name": "Gemini 3.1 Flash Lite Preview",
+      "in_api": true,
+      "replacement": "gemini-3.1-flash-lite",
+      "shutdown": "2026-05-25",
+      "status": "shutdown",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "version": "3.1-flash-lite-preview-03-2026"
+    },
+    "gemini-3.1-flash-live-preview": {
+      "display_name": "Gemini 3.1 Flash Live Preview",
+      "in_api": true,
+      "replacement": "gemini-3.8-live",
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "bidiGenerateContent"
+      ],
+      "version": "3.1-flash-live-03-2026"
+    },
+    "gemini-3.1-flash-tts-preview": {
+      "display_name": "Gemini 3.1 Flash TTS Preview",
+      "in_api": true,
+      "replacement": "gemini-3.8-flash-tts",
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "version": "3.1-flash-tts-preview"
+    },
+    "gemini-3.5-flash": {
+      "display_name": "Gemini 3.5 Flash",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "version": "3.5-flash-05-2026"
+    },
+    "gemini-3.5-flash-lite": {
+      "display_name": "Gemini 3.5 Flash Lite",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "version": "3.5-flash-lite-07-2026"
+    },
+    "gemini-3.6-flash": {
+      "display_name": "Gemini 3.6 Flash",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "version": "3.6-flash-07-2026"
+    },
+    "gemini-3.7-flash": {
+      "display_name": "Gemini 3.7 Flash",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "version": "3.7-flash-08-2026"
+    },
+    "gemini-3.8-flash": {
+      "display_name": "Gemini 3.8 Flash",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "version": "3.0"
+    },
+    "gemini-3.8-flash-lite-tts": {
+      "display_name": "Gemini 3.8 Flash Lite TTS",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "version": "3.8-flash-lite-tts"
+    },
+    "gemini-3.8-flash-tts": {
+      "display_name": "Gemini 3.8 Flash TTS",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "version": "3.8-flash-tts"
+    },
+    "gemini-flash-latest": {
+      "display_name": "Gemini Flash Latest",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "version": "Gemini Flash Latest"
+    },
+    "gemini-flash-lite-latest": {
+      "display_name": "Gemini Flash-Lite Latest",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "version": "Gemini Flash-Lite Latest"
+    },
+    "gemini-live-2.5-flash-preview": {
+      "display_name": "",
+      "in_api": false,
+      "replacement": "gemini-3.8-live",
+      "shutdown": "2025-12-09",
+      "status": "shutdown",
+      "supported_methods": [],
+      "version": ""
+    },
+    "gemini-omni-1.1-flash": {
+      "display_name": "Gemini Omni 1.1 Flash",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "countTokens",
+        "generateContent"
+      ],
+      "version": "001"
+    },
+    "gemini-omni-flash-preview": {
+      "display_name": "Gemini Omni Flash Preview",
+      "in_api": true,
+      "replacement": null,
+      "shutdown": null,
+      "status": "active",
+      "supported_methods": [
+        "countTokens",
+        "generateContent"
+      ],
+      "version": "001"
+    }
+  },
+  "updated_at": "2026-10-05T15:22:33.847958+00:00"
 }
