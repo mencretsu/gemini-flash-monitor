@@ -66,7 +66,7 @@
     "gemini-2.0-flash-preview-image-generation": {
       "display_name": "",
       "in_api": false,
-      "replacement": "gemini-2.5-flash-image",
+      "replacement": "gemini-nano-banana-2.1",
       "shutdown": "2025-11-14",
       "status": "shutdown",
       "supported_methods": [],
@@ -89,9 +89,9 @@
     "gemini-2.5-flash-image": {
       "display_name": "Nano Banana",
       "in_api": true,
-      "replacement": "gemini-3.1-flash-image-preview",
-      "shutdown": "2026-10-02",
-      "status": "shutdown",
+      "replacement": "gemini-3.1-flash-lite-image",
+      "shutdown": "2027-03-15",
+      "status": "deprecated",
       "supported_methods": [
         "batchGenerateContent",
         "countTokens",
@@ -102,7 +102,7 @@
     "gemini-2.5-flash-image-preview": {
       "display_name": "",
       "in_api": false,
-      "replacement": "gemini-2.5-flash-image",
+      "replacement": "gemini-nano-banana-2.1",
       "shutdown": "2026-01-15",
       "status": "shutdown",
       "supported_methods": [],
@@ -159,8 +159,8 @@
       "display_name": "Gemini 2.5 Flash Native Audio Preview 12-2025",
       "in_api": true,
       "replacement": "gemini-3.8-live",
-      "shutdown": null,
-      "status": "active",
+      "shutdown": "2026-11-17",
+      "status": "deprecated",
       "supported_methods": [
         "bidiGenerateContent",
         "countTokens"
@@ -189,8 +189,8 @@
       "display_name": "Gemini 2.5 Flash Preview TTS",
       "in_api": true,
       "replacement": "gemini-3.8-flash-tts",
-      "shutdown": null,
-      "status": "active",
+      "shutdown": "2026-11-17",
+      "status": "deprecated",
       "supported_methods": [
         "countTokens",
         "generateContent"
@@ -214,7 +214,7 @@
     "gemini-3.1-flash-image": {
       "display_name": "Nano Banana 2",
       "in_api": true,
-      "replacement": null,
+      "replacement": "gemini-nano-banana-2.1",
       "shutdown": null,
       "status": "active",
       "supported_methods": [
@@ -227,7 +227,7 @@
     "gemini-3.1-flash-image-preview": {
       "display_name": "Nano Banana 2",
       "in_api": true,
-      "replacement": "gemini-3.1-flash-image",
+      "replacement": "gemini-nano-banana-2.1",
       "shutdown": "2026-06-25",
       "status": "shutdown",
       "supported_methods": [
@@ -282,8 +282,8 @@
       "display_name": "Gemini 3.1 Flash Live Preview",
       "in_api": true,
       "replacement": "gemini-3.8-live",
-      "shutdown": null,
-      "status": "active",
+      "shutdown": "2026-11-17",
+      "status": "deprecated",
       "supported_methods": [
         "bidiGenerateContent"
       ],
@@ -293,8 +293,8 @@
       "display_name": "Gemini 3.1 Flash TTS Preview",
       "in_api": true,
       "replacement": "gemini-3.8-flash-tts",
-      "shutdown": null,
-      "status": "active",
+      "shutdown": "2026-11-17",
+      "status": "deprecated",
       "supported_methods": [
         "batchGenerateContent",
         "countTokens",
@@ -450,9 +450,9 @@
     "gemini-omni-flash-preview": {
       "display_name": "Gemini Omni Flash Preview",
       "in_api": true,
-      "replacement": null,
-      "shutdown": null,
-      "status": "active",
+      "replacement": "gemini-omni-1.1-flash",
+      "shutdown": "2026-10-22",
+      "status": "deprecated",
       "supported_methods": [
         "countTokens",
         "generateContent"
@@ -460,5 +460,5 @@
       "version": "001"
     }
   },
-  "updated_at": "2026-10-06T06:00:24.591393+00:00"
+  "updated_at": "2026-10-07T05:35:38.878013+00:00"
 }
